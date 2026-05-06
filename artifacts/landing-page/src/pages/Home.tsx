@@ -4,22 +4,17 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { CheckCircle2, ChevronRight, PenTool, Ruler, Clock, MessageSquare, Wrench } from "lucide-react";
+import logoPath from "@assets/Gemini_Generated_Image_dmfdc1dmfdc1dmfd_1778026686333.png";
 
 function Logo() {
   return (
-    <div className="flex items-center gap-1 font-serif text-2xl font-bold text-foreground">
-      <span className="text-[#DA4F23] mr-1 font-sans font-light">|</span>
-      TRINDADE
-    </div>
+    <img src={logoPath} alt="Trindade Engenharia e Serviços" className="h-10 w-10 rounded-full object-cover" />
   );
 }
 
 function LogoLight() {
   return (
-    <div className="flex items-center gap-1 font-serif text-2xl font-bold text-[#faddb4]">
-      <span className="text-[#DA4F23] mr-1 font-sans font-light">|</span>
-      TRINDADE
-    </div>
+    <img src={logoPath} alt="Trindade Engenharia e Serviços" className="h-10 w-10 rounded-full object-cover" />
   );
 }
 
