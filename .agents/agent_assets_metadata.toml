@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "-BLCsVEq75iph_jWwjCbA"
+uri = "file://artifacts/landing-page/public/images/hero.png"
+type = "image"
+title = "Hero kitchen"
+
+[[generated]]
+id = "JuQHHpsjrt4SsQuTTuuoq"
+uri = "file://artifacts/landing-page/public/images/service-kitchen.png"
+type = "image"
+title = "Service kitchen"
+
+[[generated]]
+id = "r4Pxoajj3UY7eGBhk5yBO"
+uri = "file://artifacts/landing-page/public/images/service-corp.png"
+type = "image"
+title = "Service corporate"
+
+[[generated]]
+id = "d7b26dgQE3F0PYN8uSB8i"
+uri = "file://artifacts/landing-page/public/images/service-closet.png"
+type = "image"
+title = "Service closet"
+
+[[generated]]
+id = "S3C6iw2PORFqzCIRmjKrX"
+uri = "file://artifacts/landing-page/public/images/portfolio-1.png"
+type = "image"
+title = "Portfolio 1"
+
+[[generated]]
+id = "ROJfpNOgwlNLCZGLi3pJz"
+uri = "file://artifacts/landing-page/public/images/portfolio-2.png"
+type = "image"
+title = "Portfolio 2"
+
+[[generated]]
+id = "eyjBWxw9jgor1FaQej7cs"
+uri = "file://artifacts/landing-page/public/images/texture.png"
+type = "image"
+title = "Wood texture background"
+
+[[generated]]
+id = "sgEO4XDVuM6BufzTj5Cq_"
+uri = "file://artifacts/landing-page/public/images/service-panel.png"
+type = "image"
+title = "Service panel"
+
+[[generated]]
+id = "CYzBeQmb4lLd1COOUECkA"
+uri = "file://artifacts/landing-page/public/images/architects.png"
+type = "image"
+title = "Architect blueprint"
+
+[[generated]]
+id = "OgUVuoVoZDCfvstGT_HL2"
+uri = "file://artifacts/landing-page/public/images/portfolio-3.png"
+type = "image"
+title = "Portfolio 3"

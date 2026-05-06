@@ -1,0 +1,111 @@
+Crie um projeto MVP de Landing Page moderna em React para uma marcenaria chamada “Trindade Engenharia e Serviços”.
+
+Objetivo: Desenvolver uma landing page profissional, elegante e estratégica para apresentar a empresa a um cliente final. A página deve valorizar a marcenaria como uma solução premium para arquitetos, designers de interiores, construtoras e clientes que buscam móveis planejados de alto padrão.
+
+Contexto da marca: A Trindade Engenharia e Serviços atua com marcenaria sob medida, projetos personalizados e execução de móveis planejados. O posicionamento deve transmitir confiança, sofisticação, precisão técnica, acabamento de qualidade e parceria estratégica com arquitetos.
+
+Público-alvo principal: Arquitetos e profissionais de interiores que precisam de uma marcenaria parceira para executar projetos com qualidade, prazo e atenção aos detalhes.
+
+Paleta de cores:
+
+#402b30
+#faddb4
+#f4c790
+#f2977e
+#ba6868
+#DA4F23 — cor principal da logo
+Também enviei a imagem da logo. Use-a no header e, se fizer sentido, no footer.
+
+Estrutura da landing page:
+
+Header
+Logo da empresa
+Menu com âncoras: Início, Sobre, Serviços, Portfólio, Depoimentos, Contato
+Botão de CTA: “Fale pelo WhatsApp”
+Hero Section
+Título forte e voltado para marketing, por exemplo: “Marcenaria sob medida para projetos que exigem excelência”
+Subtítulo direcionado a arquitetos: “A Trindade Engenharia e Serviços transforma projetos autorais em ambientes funcionais, sofisticados e bem executados.”
+Botão principal: “Solicitar Orçamento”
+Botão secundário: “Ver Portfólio”
+Visual moderno, com imagem de ambiente planejado ou espaço reservado para imagem
+Design premium, limpo e responsivo
+Seção de posicionamento estratégico Explique que a empresa é uma parceira de execução para arquitetos, oferecendo:
+leitura fiel do projeto
+acabamento de alto padrão
+atenção a prazos
+comunicação clara
+soluções sob medida
+suporte do orçamento à instalação
+Seção “Por que escolher a Trindade” Criar cards com diferenciais:
+Execução sob medida
+Acabamento premium
+Parceria com arquitetos
+Compromisso com prazo
+Atendimento consultivo
+Instalação cuidadosa
+Seção de serviços Incluir cards para:
+Móveis planejados residenciais
+Marcenaria corporativa
+Cozinhas planejadas
+Closets e dormitórios
+Painéis, racks e home offices
+Execução de projetos de arquitetos
+Seção de portfólio
+Criar uma grade visual com cards de projetos
+Usar imagens placeholder ou mockups
+Categorias sugeridas: Cozinhas, Dormitórios, Corporativo, Salas, Projetos para arquitetos
+O botão “Ver Portfólio” da hero deve rolar até essa seção
+Seção para arquitetos Criar uma seção específica com o título: “Uma marcenaria parceira para arquitetos exigentes” Explicar que a empresa entende a importância de executar o projeto conforme especificação, respeitando estética, medidas, materiais e experiência final do cliente.
+
+Depoimentos Criar 3 depoimentos fictícios, deixando claro no código que são placeholders para trocar depois. Exemplo:
+
+Arquiteta Mariana Lopes
+Studio Casa Forma
+Cliente residencial fictício
+Formulário de contato no final da página Campos:
+Nome
+E-mail
+Telefone
+Mensagem
+Comportamento: Ao enviar o formulário, redirecionar o usuário para o WhatsApp da empresa com uma mensagem pré-formatada contendo os dados preenchidos.
+
+Usar dados fictícios por enquanto:
+
+WhatsApp: +55 11 99999-9999
+E-mail: contato@trindadeengenharia.com.br
+Endereço: Rua Exemplo, 123 — São Paulo, SP
+Instagram: @trindadeengenharia
+Footer
+Logo
+Breve descrição da empresa
+Links rápidos
+Dados de contato fictícios
+Direitos autorais
+Requisitos técnicos:
+
+Projeto em React
+Código limpo, componentizado e fácil de editar
+Layout 100% responsivo
+Usar CSS moderno, Tailwind CSS ou CSS Modules
+Boa hierarquia visual
+Animações sutis, se possível
+Acessibilidade básica
+SEO básico com title, description e estrutura semântica
+Preparar estrutura para futura integração com Google Analytics e Google Ads
+Google Analytics e Google Ads: Adicionar no código uma estrutura comentada com instruções claras para futura instalação dos scripts.
+
+Exemplo:
+
+Onde inserir o Google Analytics
+Onde inserir o Google Ads Tag
+Onde configurar eventos de conversão
+Evento sugerido para clique no WhatsApp
+Evento sugerido para envio do formulário
+Comentários explicando que os IDs reais serão adicionados depois
+Observações importantes:
+
+Este projeto é um MVP para apresentação ao cliente.
+Usar textos persuasivos e com tom premium.
+Usar dados fictícios onde faltarem informações reais.
+Facilitar a troca futura de imagens, telefone, e-mail, endereço, depoimentos e links.
+Não criar uma página genérica. A landing page deve parecer feita especificamente para uma marcenaria premium voltada a arquitetos.
