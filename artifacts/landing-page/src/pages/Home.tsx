@@ -4,7 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { CheckCircle2, ChevronRight, PenTool, Ruler, Clock, MessageSquare, Wrench } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import logoPath from "@assets/Gemini_Generated_Image_dmfdc1dmfdc1dmfd_1778026686333.png";
+
+const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_DISPLAY = "+55 11 99999-9999";
+const WHATSAPP_DEFAULT_MESSAGE = "Olá! Vim pelo site e gostaria de solicitar um orçamento de marcenaria sob medida.";
+const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_DEFAULT_MESSAGE)}`;
 
 function Logo() {
   return (
@@ -34,8 +40,8 @@ export default function Home() {
 
   const handleContactSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const text = `Olá, meu nome é ${formData.name}.%0AEmail: ${formData.email}%0ATelefone: ${formData.phone}%0AMensagem: ${formData.message}`;
-    window.open(`https://wa.me/5511999999999?text=${text}`, "_blank");
+    const text = `Olá, meu nome é ${formData.name}.\nEmail: ${formData.email}\nTelefone: ${formData.phone}\nMensagem: ${formData.message}`;
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`, "_blank");
   };
 
   const fadeIn = {
@@ -47,6 +53,16 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
+      <a
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Conversar com a Trindade Engenharia e Serviços pelo WhatsApp"
+        className="fixed bottom-5 right-5 z-[60] flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl shadow-[#402b30]/30 transition-all hover:-translate-y-1 hover:bg-[#1ebe5d] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#25D366]/35 md:bottom-8 md:right-8 md:h-16 md:w-16"
+      >
+        <FaWhatsapp className="h-8 w-8 md:h-9 md:w-9" aria-hidden="true" />
+      </a>
+
       {/* 1. Header */}
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 backdrop-blur-md py-4 shadow-sm border-b border-[#faddb4]" : "bg-transparent py-6"}`}>
         <div className="container mx-auto px-6 flex items-center justify-between">
@@ -373,7 +389,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="font-bold uppercase tracking-[0.1em] text-xs text-[#DA4F23] mb-2">WhatsApp</p>
-                  <p className="text-2xl font-serif">+55 11 99999-9999</p>
+                  <p className="text-2xl font-serif">{WHATSAPP_DISPLAY}</p>
                 </div>
               </div>
               <div className="flex items-start gap-6">
